@@ -1,0 +1,6 @@
+[Unit]
+Description=Break reminder
+
+[Service]
+Type=oneshot
+ExecStart=notify-send -u critical "Break time 🧘" "Stand up, stretch, drink some water 💧"

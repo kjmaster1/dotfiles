@@ -1,0 +1,7 @@
+[Unit]
+Description=My first service 🐧
+
+[Service]
+Type=oneshot
+ExecStart=notify-send "Hello from systemd" "I ran without you typing the command 🐧"
+ExecStart=echo "hello.service ran successfully"
