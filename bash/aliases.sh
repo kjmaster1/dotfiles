@@ -1,1 +1,1 @@
-weather() { curl -s "wttr.in/${1}?0"; }
+weather() { curl -sS "wttr.in/${1}?0"; }
